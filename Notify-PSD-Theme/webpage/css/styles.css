@@ -1,0 +1,212 @@
+body {
+	background-color: #ffffff;
+
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+}
+
+#topline {
+	height: 10px;
+	background-color: #2ecc71;
+}
+
+#banner {
+	height: 600px;
+	width: 100vw;
+	background: url('../img/banner.jpg') top no-repeat;
+}
+
+#banner-content {
+	margin-top: -600px;
+	height: 600px;
+}
+
+#banner-content>div:nth-child(1) {
+	margin-top: 165px;
+	padding-left: 20px;
+	color: white;
+	float: left;
+}
+
+#banner-content>div:nth-child(1) h1{
+	padding-top: 5px;
+	padding-bottom: 20px; 
+	font-family: 'Pacifico', cursive;
+}
+
+#banner-content>div:nth-child(1) a{
+	padding-top: 10px;
+	padding-right: 8px; 
+}
+
+#apple,#android,#wp {
+	display: inline-block;
+	margin-top: 10px;
+}
+
+#apple {
+	background-image: url('../img/apple.png');
+	width: 53px;
+	height: 53px;
+}
+
+#apple:hover {
+	background: url('../img/apple2.png');
+}
+
+#android {
+	background-image: url('../img/android.png');
+	width: 54px;
+	height: 53px;
+}
+
+#android:hover {
+	background: url('../img/android2.png');
+}
+
+#wp {
+	background-image: url('../img/wp.png');
+	width: 53px;
+	height: 53px;
+}
+
+#wp:hover {
+	background: url('../img/wp2.png');
+}
+
+
+
+#banner-content>div:nth-child(2) {
+	margin-top: 93px; /*600-507*/
+}
+
+#banner-content>div:last-child img:last-child {
+	margin-top: -660px;
+	padding-left: 65px;
+}
+
+
+
+#features {
+	margin: 60px 0;
+}
+
+
+#features small {
+	font-size: 1.2em;
+	color: grey;
+}
+
+#notified {
+	background-color: #e3e3e3;
+	height: 430px;
+	padding-top: 60px;
+}
+
+#notified-content p{
+	color: grey;
+	font-size: 1.2em;
+	margin: 30px 0;
+}
+
+#input-b {
+	width: 80%;
+}
+
+
+
+#testimonials {
+	margin: 30px 0;
+}
+
+#testimonials p {
+	color: grey;
+	font-size: 1.5em;
+	margin: 15px 0; 
+}
+
+
+#testimonials div {
+	margin-top: 20px;
+}
+
+#icon {
+	padding-right: 5px;
+	
+}
+
+#icon div {
+	width: 34px;
+	height: 34px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+#icon a:nth-child(1) div {
+	background-image: url('../img/twitter.png');	
+}
+
+#icon a:nth-child(1) div:hover {
+	background-image: url('../img/twitter2.png');	
+}
+
+#icon a:nth-child(2) div {
+	background-image: url('../img/facebook.png');
+}
+
+#icon a:nth-child(2) div:hover {
+	background-image: url('../img/facebook2.png');
+}
+
+#icon a:nth-child(3) div {
+	background-image: url('../img/pinterest.png');
+}
+
+#icon a:nth-child(3) div:hover {
+	background-image: url('../img/pinterest2.png');
+}
+
+#icon a:nth-child(4) div {
+	background-image: url('../img/google.png');
+}
+
+#icon a:nth-child(4) div:hover {
+	background-image: url('../img/google2.png');
+}
+
+#icon a:nth-child(5) div {
+	background-image: url('../img/linkedin.png');
+}
+
+#icon a:nth-child(5) div:hover {
+	background-image: url('../img/linkedin2.png');
+}
+
+#icon a:nth-child(6) div {
+	background-image: url('../img/youtube.png');
+}
+
+#icon a:nth-child(6) div:hover {
+	background-image: url('../img/youtube2.png');
+}
+
+
+footer {
+	background-color: #e3e3e3;
+	height: 130px;
+	padding: 50px 0;
+}
+
+footer a{
+	padding-right: 20px;
+	color: grey;
+	font-size: 1.5em;
+}
+
+footer a:hover, footer a:focus{
+	color: green;
+	text-decoration: none;
+	text-shadow: 0px 1px 1px white;
+}
